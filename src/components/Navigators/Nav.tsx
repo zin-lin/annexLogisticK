@@ -21,13 +21,13 @@ export default function Nav () {
                 </img>
             </div>
             <div className='hider' style={{right:10, position:'absolute', display:'flex', height:'100%', alignItems:'center'}}>
-                <Link onClick={()=> dispatch(toHome())} to='/'><p style={{fontSize:16, margin:12 }}>Ho<span style={{color:"#FF5757"}}>me</span></p></Link>
-                <Link onClick={()=> dispatch(toEvent())} to='/events'><p style={{fontSize:16, margin:12 }}>Eve<span style={{color:"#FF5757"}}>nts</span></p></Link>
-                <Link onClick={()=> dispatch(toProfile())} to='/profile'><p style={{fontSize:16, margin:12 }}>Pro<span style={{color:"#FF5757"}}>file </span></p></Link>
-                <Link onClick={()=> dispatch(resetAllVs())} to='/search'><p style={{fontSize:16, margin:12 }}><span className="material-symbols-outlined">
+                <Link onClick={()=> dispatch(toHome())} to='/'><p style={{fontSize:16, margin:12, color:"#777" }}>Ho<span style={{color:"#FF5757"}}>me</span></p></Link>
+                <Link onClick={()=> dispatch(toEvent())} to='/events'><p style={{fontSize:16, margin:12 , color:"#777"}}>Eve<span style={{color:"#FF5757"}}>nts</span></p></Link>
+                <Link onClick={()=> dispatch(toProfile())} to='/profile'><p style={{fontSize:16, margin:12, color:"#777" }}>Pro<span style={{color:"#FF5757"}}>file </span></p></Link>
+                <Link onClick={()=> dispatch(resetAllVs())} to='/search'><p style={{fontSize:16, margin:12, color:"#777" }}><span className="material-symbols-outlined" style={{color:'#777'}}>
                 search
                 </span></p></Link>
-                <Link onClick={()=> dispatch(toShop())} to='/'><p style={{fontSize:16, margin:12 }}><span className="material-symbols-outlined red">
+                <Link onClick={()=> dispatch(toShop())} to='/'><p style={{fontSize:16, margin:12, color:'#777' }}><span className="material-symbols-outlined red">
                 shopping_cart_checkout
                 </span></p></Link>
             </div>

@@ -22,7 +22,7 @@ export default function Home (){
 
     useEffect(() => {
         setOpacity(1);
-        const fullText = "ENUCS is the leading society hosting contributors from all around the world. Join us explore the world of tomorrow by clicking the button below."; // The complete text to append
+        const fullText = "Annex LogisticK is the leading society hosting contributors from all around the world. Join us explore the world of tomorrow by clicking the button below."; // The complete text to append
         let currentIndex = 0;
         const appendText = () => {
             if (currentIndex < fullText.length) {
@@ -46,7 +46,7 @@ export default function Home (){
     return (<div className='page'>
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" ></link>
             <div className='home-1'>
-                <div style={{width: '42%', background:'rgba(11, 17, 45, 0.7)', left:0, display:'flex', zIndex:15,justifyContent:'center', alignItems:"center", overflow:'auto'}} className='left-sider'>
+                <div style={{width: '42%', background:'rgba(246,246,246,0.94)', left:0, display:'flex', zIndex:15,justifyContent:'center', alignItems:"center", overflow:'auto'}} className='left-sider'>
                     <div id='console' style={{transition:'0.8s ease', opacity:opacity}}>
                         <div style={{  display:"flex", alignItems:'center', justifyContent:'center'}}>
                             <div style={{margin:'20px', display:'flex'}}>
@@ -56,11 +56,11 @@ export default function Home (){
                             </div>
                         </div>
                         <div style={{paddingLeft:'40px', paddingRight:'20px'}}>
-                            <p className='web-console' style={{margin:'7px'}}><span style={{color:'grey'}}>{'>>'}</span> Hello <span className='red'>World</span></p>
+                            <p className='web-console' style={{margin:'7px'}}><span style={{color:'grey'}}>{'-'}</span> Greetings <span className='red'>From Annex</span></p>
                             <p className='web-console small'>........</p>
-                            <p className='web-console small'>{'<'} This is <span className='red'>where</span> your journey <span style={{color:'grey'}}>begins</span> with ENU<span
+                            <p className='web-console small'>{'@!['} What if <span className='red'>where</span> Logistics <span style={{color:'grey'}}>doesn't have</span> to be <span
                             className='red'
-                            >CS</span>{'>'}</p>
+                            >messy?</span>{']'}</p>
                         </div>
                     </div>
                 </div>
@@ -71,9 +71,9 @@ export default function Home (){
                     </div>
                     <div className='full' style={{width:'60%', position:"absolute", minHeight:'50px', overflow:"auto", display:'flex', alignItems:'center'}} >
                         <div style={{margin:"auto", top:'auto'}}>
-                            <p className='enucs' >{'{'}enu<span className='red'>cs</span>{'}'}</p>
+                            <p className='enucs' >{'"'}Annex<span className='red'>LogisticK</span>{'"'}</p>
                             <div style={{border:'3px', borderStyle:'solid', marginLeft:'22%', padding:'20px', marginRight:'22%',width:'auto',
-                                borderRadius:'0px 82px 0px 0px',  transition:'0.4s ease'
+                                borderRadius:'0px 82px 0px 67px',  transition:'0.4s ease'
                             }}>
                             <p className='text-shadow hider' style={{width:'60%', margin:"auto", transition:'0.4s ease '}}>
                                 {text}
@@ -88,13 +88,13 @@ export default function Home (){
                                     dispatch(toRegister());
                                     navigate('/profile');
                                 }
-                            }>Join Us Now</button>
+                            }>Connect to your Server</button>
                             <br/><br/>
                             <button className='orangex shOrange' style={{width:'200px',padding:'10px'}}
                             onClick={()=>{
                                 window.location.href = ("https://napier.ac.uk/courses");
                             }}
-                            >Join Napier</button>
+                            >Join Annex</button>
                         </div>
                     </div>
                 </div>
